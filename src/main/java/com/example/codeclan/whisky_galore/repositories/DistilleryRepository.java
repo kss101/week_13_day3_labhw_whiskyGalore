@@ -1,4 +1,8 @@
 package com.example.codeclan.whisky_galore.repositories;
 
-public interface DistilleryRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface DistilleryRepository extends JpaRepository {
 }
