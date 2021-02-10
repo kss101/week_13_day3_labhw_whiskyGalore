@@ -25,10 +25,10 @@ public class Whisky {
     @JsonIgnoreProperties({"whiskies"})
     private Distillery distillery;
 
-    public Whisky(String name, int year, int age, Distillery distillery){
+    public Whisky(String name, int age, int year, Distillery distillery){
         this.name = name;
-        this.year = year;
         this.age = age;
+        this.year = year;
         this.distillery = distillery;
     }
 

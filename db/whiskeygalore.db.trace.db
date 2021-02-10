@@ -1,4 +1,4 @@
-2021-02-10 16:03:01 database: flush
+2021-02-10 16:50:34 database: flush
 org.h2.message.DbException: General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/codeclanstudent/codeclan_work/week_13/day_3/lab_hw/whisky_galore/db/whiskeygalore.db.mv.db [1.4.200/7]" [50000-200]
 	at org.h2.message.DbException.get(DbException.java:194)
 	at org.h2.message.DbException.convert(DbException.java:347)
@@ -50,7 +50,7 @@ Caused by: java.nio.channels.OverlappingFileLockException
 	at java.nio.channels.FileChannel.tryLock(FileChannel.java:1155)
 	at org.h2.mvstore.FileStore.open(FileStore.java:163)
 	... 28 more
-2021-02-10 16:20:07 database: flush
+2021-02-10 16:52:56 database: flush
 org.h2.message.DbException: General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/codeclanstudent/codeclan_work/week_13/day_3/lab_hw/whisky_galore/db/whiskeygalore.db.mv.db [1.4.200/7]" [50000-200]
 	at org.h2.message.DbException.get(DbException.java:194)
 	at org.h2.message.DbException.convert(DbException.java:347)
