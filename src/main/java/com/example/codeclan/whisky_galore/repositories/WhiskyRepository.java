@@ -9,4 +9,8 @@ import java.util.List;
 @Repository
 public interface WhiskyRepository extends JpaRepository<Whisky, Long> {
    List<Whisky> findByYear(int year);
+
+   List<Whisky> findByDistilleryIdAndAge(Long distillery_id, Integer age);
+
+   List<Whisky> findByDistilleryRegion(String region);
 }
